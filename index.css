@@ -23,89 +23,122 @@ vertical-align: baseline;
 
 html {
   font-size: 62.5% ;
-  width: 100x ;
   margin: 0 auto;
 }
 
-
 nav {
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.9rem;
   text-align: center;
-  margin: 1.2rem;
-  padding: 1rem;
-  border: 1rem;
+  margin: 2rem;
 }
 
 a:link {
   text-decoration: none;
+  border-radius: 2rem;
+  color: white;
+  display: inline-block;
+  margin-left: 7%;
+  padding: .7rem;
+}
+
+a:hover{
+  color: black;
 }
 
 a.plan{
   background-color: #FF764E;
-  border-radius: 10rem;
 }
 
 a.lean{
   background-color: #5ED3EB;
-  border-radius: 10rem;
 }
 
 a.get {
   background-color: #FFCD69;
-  border-radius: 10rem;
 }
 
+header{
+  display: inline-block;
+  align-items: center;
+  padding: 5vh;
+}
 
 h1{
   font-family: 'Chelsea Market', cursive;
   font-size: 4rem;
   display: inline-block;
-  text-align: right;
-  /* padding: rem; */
+  text-align: center;
+  padding-bottom: 1.9rem;
 }
 
+
+img.canyon {
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 20rem;
+}
 
 .open-statement {
   font-family: 'Roboto Mono', monospace;
   font-size: 2rem;
   text-align: center;
+  display: inline-block;
+  padding: 1rem;
+  
 }
 
- img.canyon {
+.open-statement img{
   display: inline-block;
-  font-family: 'Roboto Mono', monospace;
-  border-radius: 50%;
-  width: 1rem;
+  width:20%;
+}
+
+.open-statement div{
+  display: inline-block;
+  width: 70%;
 }
 
 .about-statement{
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.8rem;
+  font-size: 2rem;
   background: #DDB9A3;
   color: white;
   text-align: center;
-  margin: 1rem;
+  width: 95rem;
+  margin: auto;
 }
 
 .facts-info img{
-  display: inline-block;
   vertical-align: 50%;
   width: 20%;
 }
 
 .facts-info{
-  display: inline-block;
+  margin: auto;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
-  
+
+}
+
+.facts-info img{
+  width: 20%;
+  padding: 5vh;
 }
 
 .facts-info p{
+  font-size: 2rem;
   width: 50%;
   margin: 0 auto;
+  padding-bottom: 10vh;
 }
 
 footer{
-  display: inline-block;
-  text-align: center;
+  background-color: #F9E7DC;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerimg {
+  width: 100%;
+  height: 50vh;
 }
