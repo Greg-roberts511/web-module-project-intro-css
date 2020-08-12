@@ -1,20 +1,17 @@
 html {
   font-size: 62.5% ;
   width: 100x ;
-  margin: auto;
+  margin: 0 auto;
 }
 
+
+
 nav {
+  border-radius: 20px;
   font-size: 1.9rem;
   padding: 2rem;
   text-align: center;
   margin: 0 auto;
-}
-
-h1{
-  font-size: 4rem;
-  display: inline-block;
-  text-align: center;
 }
 
 a.plan{
@@ -29,8 +26,34 @@ a.get {
   background-color: #FFCD69;
 }
 
+h1{
+  /* font-family: ; */
+  font-size: 4rem;
+  display: inline-block;
+  text-align: center;
+  padding: .8rem;
+}
+
  img.canyon {
-  display: block;
+  display: inline-block;
   border-radius: 50%;
-  width: 120px;
+  width: 25%;
+}
+
+.about-statement{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.8rem;
+
+  background: #DDB9A3;
+}
+
+.facts-info img{
+  display: inline-block;
+  width: 20%;
+  vertical-align: 50%;
+}
+
+.facts-info{
+  font-family: 'Roboto Mono', monospace;
+
 }
