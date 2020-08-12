@@ -30,9 +30,14 @@ html {
 
 nav {
   font-size: 1.9rem;
-  padding: 4rem;
   text-align: center;
-  margin: 0 auto;
+  margin: 1.2rem;
+  padding: 1rem;
+  border: 1rem;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 a.plan{
@@ -70,7 +75,7 @@ h1{
   display: inline-block;
   font-family: 'Roboto Mono', monospace;
   border-radius: 50%;
-  width: 20%;
+  width: 1rem;
 }
 
 .about-statement{
@@ -79,14 +84,13 @@ h1{
   background: #DDB9A3;
   color: white;
   text-align: center;
-  margin: 1%;
+  margin: 1rem;
 }
 
 .facts-info img{
   display: inline-block;
   vertical-align: 50%;
   width: 20%;
-
 }
 
 .facts-info{
