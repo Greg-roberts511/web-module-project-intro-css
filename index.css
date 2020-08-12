@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5% ;
+    width: 100x ;
+    margin: 0 auto;
+  }
+  
+  .container {
+    font-size: 1.6rem;
+  }
+  
+  div .nav{
+    font-size: 1.4rem;
+    padding: 1.6em;
+    text-align: center;
+    margin: 0 auto;
+    font-
+    
+  }
+  
+  
+  
+  a {
+    font-family:ariel
+  }
+  
+  .plan{
+    background-color: #FF764E ;
+    border-radius: 20px;
+    padding: 1.1rem;
+  }
+  
+  .learn {
+    background-color: #5ED3EB ;
+    padding: 1.1rem;
+    border-radius: 20px;
+  }
+  
+  .get {
+    background-color: #FFCD69 ;
+    padding: 1.1rem;
+    border-radius: 20px;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-family: ChelseaMarket-Regular;
+  }
+  
+  div .open-statement{
+    diplay: inline-block;
+    text-align: center;
+  } 
+  
+  
+  
+  #canyon {
+    float: left;
+    display: block;
+    border-radius: 50%;
+    width: 120px;
+  }
+  
+  facts-info .img{
+    display: ;
+    border-radius: 40;
+    margin: auto;
+    width: 120px;
+      
+  }
+  
+  .about-statement {
+  background-color: #DDB9A3;
+  }
+  
+  #footer-image{
+    
+    width: 1rem;
+  }
